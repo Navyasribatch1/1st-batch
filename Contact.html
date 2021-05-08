@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body bgcolor="skyblue">
+    
+        <ul>
+            <li><a href="Assignment1.html">Home</a></li>
+
+            <li><a href="About.html">AboutUs</a></li>
+
+            <li><a class="active" href="Contact.html">ContactUs</a></li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+          
+      </ul>
+
+    
+    <h1>ContactUs</h1>
+    <fieldset>
+        <legend align="center">Registration Form</legend>
+    <form>
+        <h2> 
+            <img src="img1.jpg" alt="image" align="right" valign="top" width=500 height=400 border="2" >
+        <div><label for="a">User Name</label></div>
+    <input type="text" placeholder="Enter Username" name="User" id="a" required>
+    <div><label for="b">Password</label></div>
+    <input type="password" placeholder="Enter Password" name="password" id="b" pattern="(?.;:*[a-z])(?.:*[#@$%!].{5-8}" required>
+    <div><label for="f">Mobile No</label></div>
+    <input type="text" placeholder="Mobile no" name="Mobile" id="f" pattern="[0-9]{10}" required>
+    <div><label for="c">Date</label></div>
+    <input type="date" name="DOB" id="c" required>
+    <div><label for="d">Gender</label></div>
+    <input type="radio" name="abc" id="d" required>M
+    <input type="radio" name="abc" id="d" required>F
+    <div><label for="e">Choose File</label></div>
+    <input type="file" name="file" id="e" accept="pdf">
+    <div><input type="submit" value="Login"></div>
+</h2>
+    </form>
+</fieldset>
+</body>
+</html>
